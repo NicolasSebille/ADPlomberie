@@ -17,10 +17,9 @@ Rails.application.config.assets.precompile += %w( cover.css )
 Rails.application.config.assets.precompile += %w( test.css )
 Rails.application.config.assets.precompile += %w( sass-compiled.css )
 Rails.application.config.assets.precompile += %w( blackrockdigital.css )
+Rails.application.config.assets.precompile += %w( scrolling-nav.css )
 
 
 Rails.application.config.assets.precompile += %w( index.js )
-
-Rails.application.config.assets.precompile += %w( scrolling-nav.css )
 Rails.application.config.assets.precompile += %w( scrolling-nav.js )
 Rails.application.config.assets.precompile += %w( blackrockdigital.js )
