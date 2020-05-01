@@ -10,15 +10,13 @@
 // Read Sprockets README (https://github.com/rails/sprockets#sprockets-directives) for details
 // about supported directives.
 //
+//= require jquery3
+//= require jquery.easing
+//= require popper
 //= require rails-ujs
 //= require turbolinks
-//= require_tree .
-//= require jquery3
-//= require popper
 //= require bootstrap-sprockets
-//= require jquery.easing
-
-
+//= require_tree .
 
 (function($) {
   "use strict"; // Start of use strict
@@ -48,13 +46,15 @@
     offset: 56
   });
 
+
+
+
 })(jQuery); // End of use strict
 
 
-// // MDB Lightbox Init
-// $(function () {
-// $("#mdb-lightbox-ui").load("mdb-addons/mdb-lightbox-ui.html");
-// });
+
+
+
 
 
 

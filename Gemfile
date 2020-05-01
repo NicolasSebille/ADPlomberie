@@ -43,6 +43,7 @@ gem 'jquery-easing-rails', '~> 0.0.2'
 
 gem "font-awesome-rails"
 
+
 # gem 'magnific-popup-rails', '~> 1.1.0'
 
 # gem 'modernizr-rails'

@@ -4,6 +4,10 @@
     <title>TestAp</title>
     <%= csrf_meta_tags %>
 
+<%= javascript_include_tag 'http://ajax.aspnetcdn.com/ajax/jquery.validate/1.9/jquery.validate.min.js' %>
+    <%= javascript_include_tag 'index', 'data-turbolinks-track': 'reload' %>
+    
+
     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
     <!-- <%= stylesheet_link_tag "cover" %> -->
@@ -11,7 +15,6 @@
     <%= stylesheet_link_tag "//maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" %>
     <%= stylesheet_link_tag "sass-compiled" %>
 
-    <%= javascript_include_tag 'index', 'data-turbolinks-track': 'reload' %>
 
 
   </head>
@@ -27,7 +30,6 @@
     <div class="cover-container d-flex w-100 h-100 p-3 mx-auto flex-column">
 </div>
 </body> -->
-    <%= javascript_include_tag 'scrolling-nav', 'data-turbolinks-track': 'reload' %>
 
 
 
