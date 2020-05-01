@@ -21,3 +21,4 @@ Rails.application.config.assets.precompile += %w( scrolling-nav.css )
 
 
 Rails.application.config.assets.precompile += %w( index.js )
+Rails.application.config.assets.precompile += %w( scrolling-nav.js )
