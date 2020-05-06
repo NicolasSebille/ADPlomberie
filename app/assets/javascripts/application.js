@@ -19,9 +19,6 @@
 //= require jquery.slick
 //= require_tree .
 
-@import 'owl.carousel/dist/assets/owl.carousel.css';
-@import 'owl.carousel';
-
 
 
 

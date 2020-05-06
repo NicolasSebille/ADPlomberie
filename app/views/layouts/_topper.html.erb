@@ -13,9 +13,11 @@
       <!-- <a class="navbar-brand js-scroll-trigger js-scrollTo" href="#mainNav">AD - PLOMBERIE</a> -->
       <%= link_to "AD - PLOMBERIE", root_path, :class => "navbar-brand js-scroll-trigger js-scrollTo"  %>
 
-      <button class="navbar-toggler navbar-toggler-right text-uppercase font-weight-bold bg-primary text-white rounded collapsed" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+      <button class="navbar-toggler navbar-toggler-right text-uppercase font-weight-bold bg-secondary text-white rounded collapsed" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
         Menu
-        <i class="fas fa-bars"></i>
+        <!-- <i class="fas fa-bars"></i> -->
+        <%= fa_icon('bars', style: 'color: #ffffff;', class: 'fa-1x align-icon-social') %>
+
       </button>
       <div class="collapse navbar-collapse" id="navbarResponsive">
         <ul class="navbar-nav ml-auto">
