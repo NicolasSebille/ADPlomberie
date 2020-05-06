@@ -5,7 +5,7 @@ git_source(:github) do |repo_name|
   "https://github.com/#{repo_name}.git"
 end
 
-ruby "2.6.6"
+
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '~> 5.1.4'
@@ -42,6 +42,11 @@ gem 'jquery-rails'
 gem 'jquery-easing-rails', '~> 0.0.2'
 
 gem "font-awesome-rails"
+
+gem 'carrierwave'
+
+gem "jquery-slick-rails"
+
 
 
 # gem 'magnific-popup-rails', '~> 1.1.0'

@@ -8,29 +8,18 @@
 <!-- Full Page Image Header with Vertically Centered Content -->
 
 
-<header class="masthead" >
+<!-- <header class="masthead" > -->
 
-<section class="text-center" style="background:none; height:550px;">
+<section class="heading-background text-center masthead" style="">
     <div class="container">
-      <div class="row vertical-center"> 
-          <div class="col">
-              
-            </div>
-            <div class="col">
-              <!-- <h1 class="masthead-heading text-uppercase font-weight-light text-white mb-0">AD PLOMBERIE</h1> -->
+              <h1 class="text-white title-heading"> AD - PLOMBERIE </h1>
 
-              <h1 class="text-white title-heading"> AD PLOMBERIE </h1>
-            </div>
-            <div class="col">
-            </div>
-      
-      </div>
-      <div class="row" style="margin-bottom:80px;"> 
+      <div class="row vertical-center"> 
       <!-- <p class="lead text-white">Something short and leading about the collection below—its contents, the creator, etc. Make it short and sweet, but not too short so folks don’t simply skip over it entirely.</p> -->
 
-      <p class="lead text-white">Expert en plomberie pour tout type de travaux, j'interviens sur plusieurs villes dans le département du VAR.</p>
-        
-      </p>
+      <h2 class="lead text-white">Expert en plomberie pour tout type de travaux, j'interviens sur plusieurs villes dans les départements du Var et Alples-Maritimes.</h2>
+
+     
     </div>
     <div class="row"> 
       <div class="divider-custom divider-light">
@@ -92,7 +81,7 @@
   
 </div> -->
 
-</header>
+<!-- </header> -->
 
 <!-- Page A Propos -->
 <!-- <section class="py-5 container-about" id="aPropos">
@@ -123,20 +112,23 @@
 
 
             <h2 class="text-white">Devis sous 48H</h2>
-            <p class="text-white">Donec sed odio dui. Etiam porta sem malesuada magna mollis euismod. Nullam id dolor id nibh ultricies </p>
+            <p class="text-white">Nous primons la réactivité en vers nos client
+            pour cela nous nous engageons à vous fournir un devis sous 48H. </p>
           </div><!-- /.col-lg-4 -->
           <div class="col-lg-4">
             
             <%= image_tag "fuite_heading.png", class:"rounded-circle", style:"width: 140px; height: 140;" %> 
 
             <h2 class="text-white">Fuite</h2>
-           <p class="text-white">Donec sed odio dui. Etiam porta sem malesuada magna mollis euismod. Nullam id dolor id nibh ultricies </p>
+           <p class="text-white">Nous reparons toute fuite sur tout materiaux tant que cela reste dans nos compétences.
+            En revanche si la fuite n'est pas detecté, il vous faudra faire appel a un chasseur de fuite.
+          </p>
           </div><!-- /.col-lg-4 -->
           <div class="col-lg-4">
             <%= image_tag "SDB_heading.png", class:"rounded-circle", style:"width: 140px; height: 140;" %> 
          
             <h2 class="text-white">Salle de bain</h2>
-           <p class="text-white">Donec sed odio dui. Etiam porta sem malesuada magna mollis euismod. Nullam id dolor id nibh ultricies </p>
+           <p class="text-white">La salle de bain est une pièce très importante, nous mettons tout en oeuvre pour qu'elle soit moderne, pratique et a votre goût </p>
           </div><!-- /.col-lg-4 -->
         </div><!-- /.row -->
 
@@ -148,25 +140,24 @@
             <%= image_tag "debouchage_heading.png", class:"rounded-circle", style:"width: 140px; height: 140;" %> 
 
             <h2 class="text-white">Tuyaux bouchés</h2>
-            <p class="text-white">Donec sed odio dui. Etiam porta sem malesuada magna mollis euismod. Nullam id dolor id nibh ultricies </p>
+            <p class="text-white">Nous pouvons interveneir sur vos canalisations bouchées dans la limite de notre proféssion. Si le bouchons demande un outillage spécialisé nous vous recomanderons alors une entreprise (SOS débouche) </p>
           </div ><!-- /.col-lg-4 -->
           <div class="col-lg-4">
 
             <%= image_tag "test_heading3.png", class:"rounded-circle", style:"width: 140px; height: 140;" %> 
             
             <h2 class="text-white">Expertise</h2>
-            <p class="text-white">Donec sed odio dui. Etiam porta sem malesuada magna mollis euismod. Nullam id dolor id nibh ultricies </p>
+            <p class="text-white">Une entreprise jeune qui Bénéficie de plusieurs années d'experience et un maitrise des ses compétences pour être toujours à l'ecoute des ses clients. </p>
           </div><!-- /.col-lg-4 -->
           <div class="col-lg-4">
             
             <%= image_tag "Time_heading.png", class:"rounded-circle", style:"width: 140px; height: 140;" %> 
 
             <h2 class="text-white">Disponible 24/7</h2>
-           <p class="text-white">Donec sed odio dui. Etiam porta sem malesuada magna mollis euismod. Nullam id dolor id nibh ultricies </p>
+           <p class="text-white">Malgrès la demande, nous nous efforçons de nous rendre disponnible le plus tôt possible pour la réalisation  de vos projets. </p>
           </div><!-- /.col-lg-4 -->
         </div><!-- /.row -->
 
-        
 
       </div>
 </div>
@@ -176,51 +167,38 @@
 
 
 <!-- Page A Realisation -->
-<section class="py-5 container-realisation" id="realisation">
+<section class="container-realisation" id="realisation">
   <!-- <div class="container container-realisation"> -->
-    <h1 class="font-bold">Realisation</h1>
+    <h1 class="font-bold"> Realisation</h1>
 
-<section id="portfolio">
-            <div class="container-fluid p-0">
-                <div class="row no-gutters">
-                    <div id="carouselExampleInterval" class="carousel slide" data-ride="carousel">
-        <div class="carousel-inner">
-              <div class="carousel-item active" data-interval="10000">
-                 <%= image_tag "av_apres.jpg", class:"d-block w-75 mt-5 mx-auto p-3",
-                                       'alt' => "Premiere Photo" %>
-              </div>
-           <div class="carousel-item">
-                 <%= image_tag "av_apres.jpg", class:"d-block w-75 mt-5 mx-auto p-3",
-                                       'alt' => "Premiere Photo" %>
+<% content_for :head do %>
+  <meta name="turbolinks-cache-control" content="no-cache">
+<% end %>
+<div class="scroller">
+  <div class="fixed-height">
+            <%= image_tag "ph1.jpg", class:"img-scroller" %> 
+  </div>
+  <div class="fixed-height">
+            <%= image_tag "ph2.jpg", class:"img-scroller" %> 
+    
+  </div>
+  <div>
+            <%= image_tag "ph3.jpg", class:"img-scroller" %> 
 
-              </div>
-               
-            </div>
-    <a class="carousel-control-prev" href="#carouselExampleInterval" role="button" data-slide="prev">
-      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-      <span class="sr-only">Previous</span>
-    </a>
-    <a class="carousel-control-next" href="#carouselExampleInterval" role="button" data-slide="next">
-      <span class="carousel-control-next-icon" aria-hidden="true"></span>
-      <span class="sr-only">Next</span>
-    </a>
-  </div> 
-            </div>
+  </div>
+  <div>
+            <%= image_tag "ph4.jpg", class:"img-scroller" %> 
+  </div>
 
-
-
-
-
-        </section>
-
-
-
-
- 
-        <%= link_to 'Voir plus de réalisations', realisations_path, class: "btn btn-xl btn-primary" %>
-
+  <div>
+            <%= image_tag "ph5.jpg", class:"img-scroller" %> 
+    
+  </div>
+</div>
 
 </section>
+
+
 
 
 
