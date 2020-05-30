@@ -5,9 +5,9 @@ Rails.application.routes.draw do
 
 	# root 'application#hello'
 	get 'welcome/index'
-	resources :articles do
-		resources :comments
-	end
+	# resources :articles do
+	# 	resources :comments
+	# end
 
 
 	# get 'contact', to: 'contact#index'
